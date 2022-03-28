@@ -1,0 +1,15 @@
+.lista {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.lista tr:nth-child(1) {
+    vertical-align: top;
+    background-color: #0043ff;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista tr td {
+    padding: 5px;
+}
