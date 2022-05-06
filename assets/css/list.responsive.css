@@ -1,0 +1,22 @@
+@media (max-width: 440px) {
+    .cabecalho {
+        display: flex;
+        justify-content: center;
+    }
+
+    .campo-nome {
+        width: 30%;
+    }
+
+    .campo-telefone {
+        width: 30%;
+    }
+
+    .campo-exp {
+        width: 1%;
+    }
+
+    .campo-acoes {
+        width: 1%;
+    }
+}

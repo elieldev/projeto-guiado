@@ -13,3 +13,19 @@
 .lista tr td {
     padding: 5px;
 }
+
+.campo-nome {
+    width: 60%;
+}
+
+.campo-telefone {
+    width: 15%;
+}
+
+.campo-exp {
+    width: 15%;
+}
+
+.campo-acoes {
+    width: 10%;
+}
