@@ -1,13 +1,6 @@
 function testaFormulario(e){
     e.preventDefault();
 
-    /* for (i in e.target.elements['telefone'].value) {
-       if ('0123456789'.indexOf(e.target.elements['telefone'].value[i]) == -1) {
-           alert('Apenas números são permitidos no campo telefone!')
-           return false
-       }
-    } */
-
     var nomePadrao = /[0-9-()]+/g
 
     if (nomePadrao.test(e.target.elements['nome'].value)){
